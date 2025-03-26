@@ -1,14 +1,13 @@
+const multiplicar = (x, y) => x * y 
 
 
-function calcularMultiplicacion(a, b, c) {
-    let resultado = multiplicar(a, b, c);
+function calcularMultiplicacion(a, b) {
+    let resultado = multiplicar(a,b);
 
-    console.log("Resultado de la multiplicación:", resultado);
+    console.log(`El resultado final de la multiplicación es: ${resultado}`);
 
-    imprimir(reultado);
 }
 
-const multiplicar = (x, y) => { x * y };
 
 calcularMultiplicacion(3, 7);
 // Resultado de la multiplicación: 21
